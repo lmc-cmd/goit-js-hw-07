@@ -44,7 +44,6 @@ galleryEl.addEventListener(`click`, (e) => {
 
   modalEl.addEventListener(`click`, (e) => {
     if (e.target.nodeName === `IMG`) {
-      // console.dir(modalEl);
       instance.close(instance);
       modalEl.removeEventListener;
     }
