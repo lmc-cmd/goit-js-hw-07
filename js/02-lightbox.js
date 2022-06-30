@@ -19,4 +19,3 @@ new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   navtext: ["<~", "~>"],
 });
-console.dir(SimpleLightbox);
